@@ -131,3 +131,21 @@ hr{
 .refree-name{
     font-size: 20px;
 }
+
+
+/* media query */
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .transfer, .refrees, .footer-area, .football-intro{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .transfer, .refree, .footer-area,{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
