@@ -38,7 +38,10 @@ hr{
     background-color: #E02C68; 
     padding: 10px 24px;
     color:#ffffff;
-
+}
+.link-button:hover{
+    background-color: white;
+    color:black;
 }
 .banner-image img{
     width:556px;
